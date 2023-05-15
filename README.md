@@ -5,15 +5,16 @@
 This Project involved the development of a backend design for an e-commerce site, using an Express.js API, configured in conjunction with Sequelize: which in turn, interacts wth MySQL database. In addition, the project was also demonstrated via a walkthrough video to show functionality. 
 The video focused on :
 - The application’s API routes being tested in Insomnia ( https://insomnia.rest/) specifically showing GET routes to return all categories, all products, and all tags.
-- Also GET Routes to return single category, single product and single tag.
+- Also GET Routes to return single category, single product and single tag were included.
 - Lastly, routes to show POST, PUT, DELETE routes for categories, products and tags were included.
 
 ## Install
 
 In the CLI, enter:
-```npm init```
+```npm init ```
 ```npm install mysql2```
 ```npm install sequalize```
+```npm install express ```
 ```npm install dotenv```
 
 
@@ -22,16 +23,16 @@ In the CLI at the project source, enter:
 ```mysql -u root -p```
 enter password on prompt
 ```db./source/schema.sql```
-```quit;```
+```exit```
 ```npm run seed```
-```npm start``
+```npm start```
 
 
 ## Links
 
-- Video:
+- Video: https://drive.google.com/file/d/1p-XX9RqfblpSxqjvdNFF3N6Ww7taSvFC/view
 
-- URL of Github repository:
+- URL of Github repository: https://github.com/BeverleyTiare/ecommerce-backend
 
 ## Acknowledgements
 Bootcamp TAs, tutors, opensource code sites, W3 schools, MDN, stackoverflow, medium, full stack blog.
