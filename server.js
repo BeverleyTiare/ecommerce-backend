@@ -19,13 +19,3 @@ const main = async () => {
 };
 main()
 
-// sync sequelize models to the database, then turn on the server
-// sequelize.authenticate().then(() => { 
-  // sequelize.sync({ force: false }).then(() => {
-    // app.listen(PORT, () => {
-    //   console.log(`App listening on port ${PORT}!`);
-    // });
-  // });
-// });
-
-//chnage above code block ??
