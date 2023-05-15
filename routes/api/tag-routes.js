@@ -1,11 +1,6 @@
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
-//Require Sequelize??
-//Require tag init??
-
-// The `/api/tags` endpoint
-
 router.get('/', (req, res) => {
 
   // find all tags
@@ -82,5 +77,4 @@ router.delete('/:id', (req, res) => {
 
 module.exports = router
 
-//Check above: 
-//maybe chnage as per other route files
+
