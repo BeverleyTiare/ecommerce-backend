@@ -23,7 +23,7 @@ In the CLI at the project source, enter:
 ```mysql -u root -p```
 enter password on prompt
 ```db./source/schema.sql```
-```exit```
+```exit;```
 ```npm run seed```
 ```npm start```
 
